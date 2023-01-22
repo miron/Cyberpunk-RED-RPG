@@ -119,7 +119,8 @@ class CharacterBuilder:
         """New NPC"""
         return NPC()
 
-# Now we can use the CharacterBuilder to create instances of the Character and NPC classes:
+# Now we can use the CharacterBuilder to create instances of the 
+# Character and NPC classes:
 builder = CharacterBuilder()
 
 player = builder.create_new_character().set_name("John").set_stats(stats).set_skills(skills)
