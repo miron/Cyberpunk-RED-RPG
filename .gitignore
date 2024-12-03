@@ -1,2 +1,6 @@
 __pycache__/
 .env
+# Logs
++.log
+debug.log
+logs/
